@@ -1,6 +1,6 @@
 package stringCahin.stringCahin;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-import static org.junit.Assert.*;
 
 public class CUnitTest {
     @Test
@@ -14,6 +14,6 @@ public class CUnitTest {
         String result = c.process("HE");
 
         // מאמתים את הפלט
-        assertEquals("HELX", result);
+        assertEquals("HEL", result);
     }
 }

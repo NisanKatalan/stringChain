@@ -1,8 +1,8 @@
 package stringCahin.stringCahin;
 
-public class DStub extends D {
-    public  DStub() {super(null);}
-	
+public class EStub extends E {
+    public EStub() { super(); }
+    
     @Override
     public String process(String prefix) {
         return prefix + ""; // הוספה מדומה

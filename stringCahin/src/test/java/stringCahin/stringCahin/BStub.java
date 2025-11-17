@@ -1,7 +1,7 @@
 package stringCahin.stringCahin;
 
-public class DStub extends D {
-    public  DStub() {super(null);}
+public class BStub extends B {
+    public  BStub() {super(null);}
 	
     @Override
     public String process(String prefix) {
