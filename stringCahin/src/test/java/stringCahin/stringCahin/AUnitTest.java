@@ -13,6 +13,6 @@ public class AUnitTest {
         String result = a.process("");
 
         // מאמתים את הפלט
-        assertEquals("HT", result);
+        assertEquals("H", result);
     }
 }

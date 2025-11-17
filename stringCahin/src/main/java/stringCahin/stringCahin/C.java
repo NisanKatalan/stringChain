@@ -1,7 +1,7 @@
 package stringCahin.stringCahin;
 
 public class C {
-	 private D next;
+	 private final D next;
 
 	 public C(D next) {
 	     this.next = next;
